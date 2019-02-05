@@ -15,3 +15,4 @@ git clone https://github.com/thiippal/ENG-3072/
 # cd /home/jovyan/work/ENG-3072/
 
 # jupyter notebook --notebook-dir='/home/jovyan/work/ENG-3072/'
+sed -i s/#c.NotebookApp.notebook_dir =.*/c.NotebookApp.notebook_dir = '\/home\/jovyan\/work\/ENG-3072\/'/g jupyter_notebook_config.py
